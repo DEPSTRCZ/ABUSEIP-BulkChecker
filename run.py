@@ -23,9 +23,8 @@ mode = input("Enable Bulk Check? (.csv file) [true,false]\n").lower()
 if mode == "true":
     print("Bulk Mode")
     filepath = str(input("Please enter an filepath to .csv file\n"))
-    filepath1 = "/home/ubuntu/PROJEKTY/ABUSEIP-BulkChecker/db.csv"
     rows = []
-    with open(filepath1, 'r') as file:
+    with open(filepath, 'r') as file:
         csvreader = csv.reader(file)
         header = next(csvreader)
         for row in csvreader:
@@ -37,5 +36,6 @@ else:
     ip = input("Enter an IP Adress\n")
     print("Checking an IP...\n-------------\n")
     check(ip)
+    exit()
 
 #python3 run.py
