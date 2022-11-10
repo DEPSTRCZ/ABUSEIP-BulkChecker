@@ -16,7 +16,6 @@ def check(ip):
     except:
         pass
 apikey = input("Please enter an API key\n")
-apikey2 = "b761237aca6e4159317276333f42333d9d34691a0fdf2daef563af8d127f43b05ae9688643a2144d"
 if apikey == "":
     print(f"API key invalid")
     exit()
@@ -40,4 +39,3 @@ else:
     check(ip)
 
 #python3 run.py
-# b761237aca6e4159317276333f42333d9d34691a0fdf2daef563af8d127f43b05ae9688643a2144d
