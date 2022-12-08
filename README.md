@@ -1,5 +1,5 @@
 # ABUSEIP-BulkChecker
-Bulk/Single analyzer of ip addresses from https://www.abuseipdb.com/
+Bulk/Single analyzer of ip addresses using https://www.abuseipdb.com/
 
 ### Usage:
 - Create new folder
